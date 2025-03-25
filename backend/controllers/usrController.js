@@ -1,4 +1,4 @@
-import { getUsers, updateUserStatus, deleteUser } from '../models/user';
+import { getUsers, updateUserStatus, deleteUser } from '../models/user.js';
 
 export const fetchUsers = async (req, res) => {
     try {
