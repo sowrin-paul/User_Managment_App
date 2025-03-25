@@ -123,4 +123,4 @@ router.delete("/users", authMiddleware, async (req, res) => {
     }
 });
 
-export default { router, authMiddleware };
+export default router;
